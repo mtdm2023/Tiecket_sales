@@ -1,0 +1,79 @@
+@media (min-width: 300px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 384px !important;
+    position: relative;
+    right: 6px !important;
+    height: 264px;
+}
+
+}
+@media (min-width: 770px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 294px !important;
+    position: relative;
+    right: -74px !important;
+    height: 264px;
+}
+
+}
+
+@media (min-width: 1150px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 603px !important;
+    position: relative;
+    right: -58px !important;
+    height: 264px;
+}
+
+}
+@media (min-width: 1400px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 831px !important;
+    position: relative;
+    right: -11px !important;
+    height: 264px;
+}
+
+}
+@media (min-width: 1800px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 1199px !important;
+    position: relative;
+    right: 113px !important;
+    height: 264px;
+}
+
+}
+@media (min-width: 1950px)
+{
+  .chart-container {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 1313px !important;
+    position: relative;
+    right: 113px !important;
+    height: 264px;
+}
+
+}

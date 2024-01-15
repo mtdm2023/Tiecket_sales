@@ -1,0 +1,241 @@
+
+
+@font-face {
+  font-family: "Neo Sans Arabic Medium";
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot");
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.svg#Neo Sans Arabic Medium")format("svg");
+}
+
+.bookSwitchbutton{
+
+  display: flex ;
+  justify-content: end;
+  margin-bottom: 23px;
+  align-items: center;
+}
+
+.searchPart{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 23px;
+  align-items: baseline;
+}
+.bookButton{
+  width:  100px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #8A74F9;
+  border-color: transparent;
+  color: #FCFCFC;
+  font-size: 11px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+.bookButton:hover
+{
+  background-color: #8376c7;
+}
+.table_headers{
+  color: #ABAAB1;
+  font-size: 11.28px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+  line-height: 23.24px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.tableData{
+  display: flex;
+  justify-content: center;
+  color: #1C1C28;
+  font-size: 13.28px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+  line-height: 23.24px;
+  word-wrap: break-word;
+
+
+}
+.p-paginator .p-paginator-last {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: none !important;
+}
+
+.ticketsTabletitle{
+
+  color: #1C1C28;
+  font-size: 16px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-left: 17px;
+
+
+}
+
+input {
+  text-align: right;
+  width: 277px;
+  height: 36px;
+}
+
+.ui-inputswitch {
+  transform: rotate(180deg) !important;
+}
+.ui-inputswitch .ui-inputswitch-slider {
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%) !important;
+
+}
+
+
+::ng-deep .p-paginator{
+  display: flex;
+
+  justify-content: left;
+  align-items: center;
+}
+
+::ng-deep .p-paginator .ui-paginator-page {
+  color: #007bff; /* Change the page number color */
+  margin: 5 5px; /* Add margin between page numbers */
+
+}
+
+::ng-deep .p-paginator.ui-paginator-next,
+ .p-paginator .ui-paginator-prev {
+  background-color: #007bff; /* Change the background color of next and previous buttons */
+  color: #fff; /* Change the text color of next and previous buttons */
+  border: 1px solid #007bff; /* Add border to next and previous buttons */
+  color: #7E8299;
+
+}
+
+::ng-deep .p-paginator-pages
+{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+::ng-deep .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: #8A74F9;
+  width: 27px;
+  height: 27px;
+  border-color: #EFF6FF;
+  color: #ffffff;
+  border-radius: 4.50px; /* Change the background color on hover */
+}
+
+::ng-deep .p-paginator .p-paginator-current {
+  background-color: transparent;
+  border: 0 none;
+  color: #7E8299;
+  position: absolute;
+  right: 103px;;
+}
+
+::ng-deep .p-paginator-currentt{
+  background-color: transparent;
+  border: 0 none;
+  color: #7E8299;
+  position: absolute;
+  right: 12px;
+
+
+}
+
+
+::ng-deep .p-paginator .p-paginator-pages .p-paginator-page{
+  background-color: transparent;
+  border: 0 none;
+  color: #7a599b;
+  min-width: 1rem;
+  height: 1rem;
+  margin: 12px;
+  transition: box-shadow 0.2s;
+  border-radius: 4.50px;
+}
+::ng-deep .p-paginator .p-dropdown{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 52.5px;
+  height: 31.5px;
+
+}
+
+::ng-deep .p-paginator .p-dropdown .p-dropdown-label{
+  padding-right: 0;
+}
+
+
+::ng-deep  .p-dropdown{
+  display: inline-flex;
+  cursor: pointer;
+  position: absolute;
+  right: 42px;
+    bottom: 20px;
+  -webkit-user-select: none;
+  user-select: none;
+
+}
+
+::ng-deep .p-dropdown-label {
+  display: block;
+  white-space: nowrap;
+ overflow: visible;
+  flex: 1 1 auto;
+  width: 1%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  line-height: 9px;
+}
+
+::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider{
+  background: #8A74F9;
+  border-color: transparent;
+
+}
+
+.activeText{
+  position: relative;
+  right: 107px;
+  top: 8px;
+  color: #9C9D9F;
+ font-size: 14px;
+ font-family: Neo Sans Arabic Medium;
+ font-weight: 400;
+ word-wrap: break-word;
+
+}
+
+.firstButtonSearch {
+  position: absolute;
+  top: 7px;
+  right: 412px;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+.secondButtonSearch{
+  position: absolute;
+  top: 7px;
+  right: 454px;
+  cursor: pointer;
+  border-radius: 6px;
+
+}
+
+.hoverr :hover{
+  fill: #aea1ee;
+}

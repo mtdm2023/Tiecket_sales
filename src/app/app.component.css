@@ -1,0 +1,31 @@
+.responsiv{
+  width: 80px !important;
+}
+.backArrow
+{
+  z-index: 1;
+  position: absolute;
+  right: 138px;
+  cursor: pointer;
+}
+.hoverrr :hover{
+  fill:#aea1ee;
+
+}
+.ticketNumberDescribtion{
+  position: absolute;
+  right: 182px;
+  color: #1C1C28;
+  font-size: 16px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word
+}
+
+.EditButton{
+  z-index: 1;
+  position: absolute;
+  left: 47px;
+  cursor: pointer !important;
+}

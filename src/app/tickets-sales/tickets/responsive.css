@@ -1,0 +1,12 @@
+@media (max-width: 765px)
+{
+  .searchPart {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 23px;
+    align-items: baseline;
+    position: relative !important;
+    right: -97px !important;
+}
+
+}

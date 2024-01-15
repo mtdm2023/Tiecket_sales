@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Neo Sans Arabic Medium";
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot");
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.svg#Neo Sans Arabic Medium")format("svg");
+}
+.ticketCard{
+  margin-top: 40px;
+  width: 408px;
+  height: 264px;
+}
+
+.ticketInputfield{
+  position: absolute;
+  top: 113px;
+  left: 83px;
+
+
+  color: #1C1C28;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 500;
+  line-height:29.28px;
+
+}
+
+input{
+  width: 254px;
+  text-align: center;
+  border-radius: 6px;
+  border-color: transparent;
+
+}
+
+.tashIconStyle{
+  position: absolute;
+  cursor: pointer;
+  top: 67px;
+    left: 48px;
+}
+
+.ticketCardExpirationTextStyle{
+  position: absolute;
+  top: 156px;
+  left: 156px;
+  color: white;
+  font-size: 12px;
+  font-family: Neo Sans Arabic;
+  font-weight: 400;
+
+}
+.ticketCardDiscountTextValueStyle{
+  position: absolute;
+  top: 241px;
+  left: 324px;
+  color: white;
+  font-size: 23px;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+.ticketCardDiscountTextStyle{
+
+  position: absolute;
+  top: 218px;
+  left: 334px;
+  color: white;
+  font-size: 14px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+
+
+}
+.share{
+ position: absolute;
+ top: 244px;
+ left: 243px;
+ cursor: pointer;
+}
+
+.qrcode{
+  position: absolute;
+  top: 198px;
+  left: 45px;
+
+}
+.copyIcon{
+  position: absolute;
+
+  top: 116px;
+  left: 88px;
+  z-index: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+
+@media (min-width: 300px)
+{
+
+  .ticketCard{
+    margin-top: 38px;
+    width: 362px !important;
+    height: 264px !important;
+}
+
+}
+/* @media (min-width: 700px)
+{
+
+  .ticketCard{
+    margin-top: 38px;
+    width: 289px !important;
+    height: 264px !important;
+}
+
+} */
+@media (min-width: 821px)
+{
+
+  .ticketCard{
+    margin-top: 38px;
+    width: 379px !important;
+    height: 264px !important;
+}
+
+}
+
+
+@media (min-width: 1263px)
+{
+
+}
+
+
+@media (min-width: 1400px)
+{
+
+
+}
+@media (min-width: 1800px)
+{
+
+
+}
+@media (max-width: 987px)
+{
+
+
+}

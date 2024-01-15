@@ -1,0 +1,13 @@
+#chart {
+  /* max-width: 650px; */
+  margin: 40px auto;
+}
+.chart-container{
+  background-color: white;
+  overflow: hidden;
+  border-radius: 6px;
+  width: 603px;
+  position: relative;
+  right: 134px;
+  height: 264px;
+}

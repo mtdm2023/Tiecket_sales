@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Neo Sans Arabic Medium ";
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot");
+  src: url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/7668f634eb4865a48f04d52ea3fb9b27.svg#Neo Sans Arabic Medium")format("svg");
+}
+.userCard{
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ text-align: end;
+  width: 97.09974px;
+  height:29.87684px ;
+}
+
+
+#middletextt {
+  text-wrap: nowrap;
+  flex-grow:11;
+  flex-wrap: wrap;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  height: 23px;
+  position: relative;
+  right: 12px;
+
+}
+
+#rightimagebox {
+  flex-grow: 0;
+  align-self: center;
+  text-align: start;
+
+  width: 25%;
+
+}
+.usernameParagraph{
+  color: #1C1C28;
+  font-size: 11.62px;
+  font-family: Neo Sans Arabic Medium;
+  font-weight: 400;
+  line-height: 0.92px;
+  word-wrap: break-word
+}
+.userPhoneparagraph2{
+  color: #92A1AD;
+  font-size: 9.96px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 0.92px;
+  word-wrap: break-word
+}
+
